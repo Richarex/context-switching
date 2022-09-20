@@ -1,0 +1,96 @@
+{
+  "unpublishedPage": {
+    "name": "Page2",
+    "slug": "page2",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 560,
+          "containerStyle": "none",
+          "snapRows": 54,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 61,
+          "minHeight": 550,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+              "searchTags": [
+                "form",
+                "text input",
+                "number",
+                "textarea"
+              ],
+              "topRow": 2,
+              "bottomRow": 6,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 11.40625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 3,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "3b8jo533cx",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 23,
+              "widgetId": "654jmfpsmk",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "iconAlign": "left",
+              "defaultText": ""
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "Page2",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "6322f8144a39fb0828afc4f3_6322f8a4cb88d00595387de0"
+}
